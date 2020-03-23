@@ -1,3 +1,183 @@
+### Definición del producto :
+
+Proceso de Diseño:
+
+
+cómo crees que el producto resuelve el problema (o problemas) que tiene tu usuario.
+
+### Historias de usuario
+
+1.- Yo como usuario principiante quiero poder visualizar de manera general a los pokemones
+
+- Definición de lo Terminado: 
+
+      El código cumple con la guia de estilos acordada
+      El código esta en el Repositorio
+      El código tiene y pasa los test necesarios
+      El código ha sido hecho, al menos en parte, en pair-programming y/o alguien le hizo code-review
+
+- Criterios de Aceptación: 
+
+      El usuario tiene que ingresar a la pagina y buscar el input donde tiene que ingresar el nombre del pokemon
+      Mientras se ingresa las letras, se van generando los pokemones que tienen coincidencia.
+      Una vez ingresado el nombre , el usuario tiene que hacer click a la imagen del pokemon para ingresar a su ficha de información
+
+2.- Yo como usuario quiero ubicar a un pokemon por su nombre para ubicarlo de manera rapida
+
+- Definición de lo Terminado: 
+      El código cumple con la guia de estilos acordada
+      El código esta en el Repositorio
+      El código tiene y pasa los test necesarios
+      El código ha sido hecho, al menos en parte, en pair-programming y/o alguien le hizo code-review
+
+- Criterios de Aceptación:
+
+      El usuario tiene que ingresar a la pagina y buscar el input donde tiene que ingresar el nombre del pokemon
+      Mientras se ingresa las letras, se van generando los pokemones que tienen coincidencia.
+      Una vez ingresado el nombre , el usuario tiene que hacer click a la imagen del pokemon para ingresar a su ficha de información
+
+3.- Yo como usuario Quiero poder filtrar a todos los pokemones para agrupalos por diferentes categorias
+
+- Definición de lo Terminado: 
+
+      El código cumple con la guia de estilos acordada
+      El código esta en el Repositorio
+      El código tiene y pasa los test necesarios
+      El código ha sido hecho, al menos en parte, en pair-programming y/o alguien le hizo code-review
+
+- Criterios de Aceptación:
+
+      El usuario se encuentra en la pagina principal,donde tiene que ubicar la barra de seleccion
+      El usuario tiene que marcar las caracteristicas que quiere que tenga el pokemon
+      una vez que ya esta selecciona tiene que ubicar el boton de sgt
+      una vez que da siguiente se muestra en pantalla todas las opciones que contenga su criterio de filtrado
+      el usuario le da click a la imagen del pokemon para que salga toda su informacion
+
+4.- Yo como usuario quiero ver toda la información del Pokémon seleccionado para elegir el que más me convenga
+
+- Definición de lo Terminado: 
+
+      El código cumple con la guia de estilos acordada
+      El código esta en el Repositorio
+      El código tiene y pasa los test necesarios
+      El código ha sido hecho, al menos en parte, en pair-programming y/o alguien le hizo code-review
+
+- Criterios de Aceptación:
+
+      Ubicamos al usuario en la pantalla principal
+      Si el usuario quiere acceder a la informacion del pokemon solo tiene que hacer click en la imagen
+      aparecera toda la informacion del pokemon
+
+5.- Yo como usuario quiero calcular los caramelos faltantes para la evolución de mi Pokémon
+
+- Definición de lo Terminado: 
+
+      El código cumple con la guia de estilos acordada
+      El código esta en el Repositorio
+      El código tiene y pasa los test necesarios
+      El código ha sido hecho, al menos en parte, en pair-programming y/o alguien le hizo code-review
+
+- Criterios de Aceptación:
+
+      El usuario se encuentra en la pagina principal de la información del pokemon.
+      Se da click en el link calculadora de evolución
+      se completa la información solicitada- la cantidad de caramelos que se tiene actualmente
+      la calcular da la respuesta
+
+6.- Yo como usuario quiero poder ordenar a los pokemones para verlos de manera alfa
+
+- Definición de lo Terminado: 
+
+      El código cumple con la guia de estilos acordada
+      El código esta en el Repositorio
+      El código tiene y pasa los test necesarios
+      El código ha sido hecho, al menos en parte, en pair-programming y/o alguien le hizo code-review
+
+- Criterios de Aceptación:
+
+
+### Diseño de la Interfaz de Usuario
+
+#### Prototipo de baja fidelidad
+
+PAGINA DE BIENVENIDA: 
+![image](https://user-images.githubusercontent.com/60888044/76628881-73cbc080-650b-11ea-834b-30348259b46f.png)
+
+PAGINA DE INICIO: 
+![image](https://user-images.githubusercontent.com/60888044/76629671-a7f3b100-650c-11ea-8e3c-f181493c7706.png)
+
+PAGINA DE BUSCAR POR NOMBRE: 
+![image](https://user-images.githubusercontent.com/60888044/76629910-218b9f00-650d-11ea-874a-8f5891d650dd.png)
+
+PAGINA DE BUSQUEDA AVANZADA:
+![image](https://user-images.githubusercontent.com/60888044/76630711-7a0f6c00-650e-11ea-8c3b-e2e50952714b.png)
+
+PAGINA DE INFORMACION DE POKEMON:
+![image](https://user-images.githubusercontent.com/60888044/76630109-716a6600-650d-11ea-9916-0d5c2c27b8c5.png)
+
+PAGINA DE CALCULADORA DE EVOLUCIÓN:
+![image](https://user-images.githubusercontent.com/60888044/76630319-d45bfd00-650d-11ea-826f-1a2ffb314ac1.png)
+
+#### Prototipo de alta fidelidad
+
+APLICACIÓN MOVIL:
+
+BIENVENIDA
+![image](https://user-images.githubusercontent.com/60888044/76633063-2737b380-6512-11ea-9405-88d22877fe18.png)
+
+PAGINA DE INICIO
+![image](https://user-images.githubusercontent.com/60888044/76633301-7e3d8880-6512-11ea-9dc3-11d26c59554f.png)
+
+DESPLIEGUE DE BUSQUEDA POR NOMBRE
+
+![image](https://user-images.githubusercontent.com/60888044/76633195-59491580-6512-11ea-8cfb-097c98e2b010.png)
+
+DESPLIEGUE DE BUSQUEDA AVANZADA
+![image](https://user-images.githubusercontent.com/60888044/76633163-4afaf980-6512-11ea-87be-d3e065ab3e15.png)
+
+RESULTADOS DE BUSQUEDA POR PRIMERAS LETRAS
+![image](https://user-images.githubusercontent.com/60888044/76633327-8990b400-6512-11ea-8116-9a01f469c5bb.png)
+
+INFORMACIÓN DEL POKEMON
+![image](https://user-images.githubusercontent.com/60888044/76633266-741b8a00-6512-11ea-88b5-94964e8ac2e5.png)
+
+CALCULADORA DE EVOLUCIÓN
+![image](https://user-images.githubusercontent.com/60888044/76633232-682fc800-6512-11ea-8677-20d673097a94.png)
+
+RESPUESTA DE LA CALCULADORA DE EVOLUCIÓN
+![image](https://user-images.githubusercontent.com/60888044/76633363-957c7600-6512-11ea-84d4-91bb86266e0b.png)
+
+DESKTOP:
+
+PAGINA DE BIENVENIDA
+![image](https://user-images.githubusercontent.com/60888044/76633744-3408d700-6513-11ea-9adb-07b20ed2d6e1.png)
+
+PAGINA DE INICIO
+![image](https://user-images.githubusercontent.com/60888044/76634017-ad082e80-6513-11ea-9388-4656ed10bea4.png)
+
+BUSQUEDA POR NOMBRE
+![image](https://user-images.githubusercontent.com/60888044/76633928-82b67100-6513-11ea-9554-66acc0b6d008.png)
+
+BUSQUEDA AVANZADA
+![image](https://user-images.githubusercontent.com/60888044/76633891-6f0b0a80-6513-11ea-9fe1-f1a7ece7bf29.png)
+
+INFORMACIÓN DE POKEMON
+![image](https://user-images.githubusercontent.com/60888044/76633989-9eba1280-6513-11ea-94ca-f93726d99f9c.png)
+
+CALCULADORA DE EVOLUCIÓN 
+![image](https://user-images.githubusercontent.com/60888044/76633960-8ea23300-6513-11ea-8c31-c0ce0515a572.png)
+
+RESULTADOS DE LA CALCULADORA
+![image](https://user-images.githubusercontent.com/60888044/76634051-be513b00-6513-11ea-8214-d139944480b5.png)
+
+
+
+#### Testeos de usabilidad
+
+ Cuéntanos
+qué problemas de usabilidad detectaste a través de los _tests_ y cómo los
+mejoraste en tu propuesta final.
+
 # Data Lovers
 
 ## Índice

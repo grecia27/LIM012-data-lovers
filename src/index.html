@@ -2,11 +2,57 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <title>Pokemon</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
+  <!--cuerpo-->
+  <body class="contenedor"> 
+    <header class="barraprincipal">
+        <img src="barra1.jpg">        
+    </header>
+    
+    <!--barra de opciones de busqueda-->
+    <div class="barra1">
+      <ul>
+        <h2>Busqueda por Nombres <img src="botones/despliegue.png"> </h2> 
+      </ul>
+    </div> 
+    <div class="barra3">
+      <ul>
+        <h2>Busqueda Especifica <img src="botones/despliegue.png"></h2>
+      </ul>
+    </div> 
+    <!--FILTRADO-->
+    <section class="options">
+      <select name="order" id="order" class="selectStyle">
+        <option value="" selected disabled>Ordenar</option>
+        <option value="a-z">A-Z</option>
+        <option value="z-a">Z-A</option>
+        <option value="ascendente">000 - 251</option>
+        <option value="descendente">251 - 000</option>
+      </select>
+     
+
+    <!--imagenes de pokemones -->
+    <div class="contenedor2">
+      <ul class="lista">
+        <img src="pokemones/001.png" height="200" class="img1">
+        <img src="pokemones/002.png" height="200" class="img2">
+        <img src="pokemones/003.png" height="200" class="img3">
+        <img   src="pokemones/004.png" height="200" class="img4">
+        <img src="pokemones/005.png" height="200" class="img5">
+        <img src="pokemones/006.png" height="200" class="img6">
+        <img src="pokemones/007.png" height="200" class="img7">
+        <img src="pokemones/008.png" height="200" class="img8">
+        <img src="pokemones/009.png" height="200" class="img9">
+      </ul>
+    </div>
+
+   
+
+    <footer class="footer"> 
+      <h3>Pawered By : Eliane Tapia & Grecia Rios</h3>
+    </footer>
+  </div>
   </body>
 </html>
