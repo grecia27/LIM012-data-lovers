@@ -6,53 +6,75 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <!--cuerpo-->
-  <body class="contenedor"> 
-    <header class="barraprincipal">
+  <body> 
+    <header>
         <img src="barra1.jpg">        
     </header>
     
     <!--barra de opciones de busqueda-->
-    <div class="barra1">
-      <ul>
-        <h2>Busqueda por Nombres <img src="botones/despliegue.png"> </h2> 
-      </ul>
-    </div> 
-    <div class="barra3">
-      <ul>
-        <h2>Busqueda Especifica <img src="botones/despliegue.png"></h2>
-      </ul>
-    </div> 
-    <!--FILTRADO-->
-    <section class="options">
-      <select name="order" id="order" class="selectStyle">
-        <option value="" selected disabled>Ordenar</option>
-        <option value="a-z">A-Z</option>
-        <option value="z-a">Z-A</option>
-        <option value="ascendente">000 - 251</option>
-        <option value="descendente">251 - 000</option>
-      </select>
-     
-
-    <!--imagenes de pokemones -->
-    <div class="contenedor2">
-      <ul class="lista">
-        <img src="pokemones/001.png" height="200" class="img1">
-        <img src="pokemones/002.png" height="200" class="img2">
-        <img src="pokemones/003.png" height="200" class="img3">
-        <img   src="pokemones/004.png" height="200" class="img4">
-        <img src="pokemones/005.png" height="200" class="img5">
-        <img src="pokemones/006.png" height="200" class="img6">
-        <img src="pokemones/007.png" height="200" class="img7">
-        <img src="pokemones/008.png" height="200" class="img8">
-        <img src="pokemones/009.png" height="200" class="img9">
-      </ul>
+    <div id='body'>
+      <div class="subbody">
+        <ul>
+          <h2>Busqueda por Nombres</h2>
+          <div class="info">
+            <p class="info">Ingresar Nombre del Pokemón</p>
+            <input class="flexsearch--input" type="Pokemón"
+            placeholder="Pokemón">
+          </div>
+        <ul>
+      </div>
     </div>
 
-   
-
-    <footer class="footer"> 
-      <h3>Pawered By : Eliane Tapia & Grecia Rios</h3>
+    <div id="body2">
+      <div class="subbody2">
+        <ul>
+          <h2>Busqueda Avanzada</h2>
+            <select name="orderType" id="orderType" class="selectStyle">
+            <option value="" selected disabled>Seleccionar</option>
+            <option value="steel">Acero</option>
+            <option value="water">Agua</option>
+            <option value="bug">Bicho</option>
+            <option value="dragon">Dragón</option>
+            <option value="electric">Eléctrico</option>
+            <option value="ghost">Fantasma</option>
+            <option value="fire">Fuego</option>
+            <option value="fairy">Hada</option>
+            <option value="ice">Hielo</option>
+            <option value="fighting">Lucha</option>
+            <option value="normal">Normal</option>
+            <option value="grass">Planta</option>
+            <option value="psychic">Psiquico</option>
+            <option value="rock">Roca</option>
+            <option value="dark">Siniestro</option>
+            <option value="ground">Tierra</option>
+            <option value="poison">Veneno</option>
+            <option value="flying">Volador</option>
+          </select>
+        </ul>
+      </div>
+    </div>
+ 
+    <!--ordenador-->
+    <main>
+      <h2>Ordenar por:</h2>
+        <select name="order" id="order" class="order">
+        <option value="" selected disabled>Selecciona una opción</option>
+        <option value="a-z">A - Z</option>
+        <option value="z-a">Z - A</option>
+        <option value="ascendente">000 - 251</option>
+        <option value="descendente">251 - 000</option>
+        </select>       
+      </select>
+        </select>       
+    </main> 
+    <!--imagenes de pokemones -->
+    <div id="stack" class="stack">
+    </div> 
+    <footer> 
+      <h3>Powered By : Eliane Tapia & Grecia Rios</h3>
     </footer>
   </div>
+  <div id="root"></div>
+    <script src="main.js" type="module"></script>
   </body>
 </html>
