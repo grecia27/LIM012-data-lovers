@@ -1,0 +1,14 @@
+.stack{
+    display: flex;
+}
+.cards{
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-right: 1.5%;
+    flex: 0 1 5%;
+}
