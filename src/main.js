@@ -11,14 +11,11 @@ const showAllPokemon = (arr) => {
                 <div>
                     <img src="${obj.img}" alt="">
                 </div>
-                <p>${obj.name}</p>
+                <p><strong>${obj.name}</strong></p>
                 <p>${obj.type}</p>
                 `;
     stackOfPokemons.appendChild(pokemonCard);
   });
 };
-
 showAllPokemon(data.pokemon);
-
-
-// 'templates, backticks comillas invertidas para concatenar en JS'//
+// templates, backticks comillas invertidas para concatenar en JS
