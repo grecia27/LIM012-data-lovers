@@ -1,14 +1,68 @@
 .stack{
     display: flex;
+    flex-wrap: wrap;
 }
 .cards{
     flex-flow: column nowrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: lightblue;
-    border: 1px solid #000000;
+    background: #EDCCCC;
+    border: 3px solid #608AA9;
     box-sizing: border-box;
-    margin-top: 5%;
-    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-right: 1%;
     flex: 0 1 5%;
+    border-radius: 0 0 10px 0;
+    text-align: center;
+    color:#608AA9;
+    font-size: 23px;
+    font-family: 'Lucida Sans';
+}  
+
+*{
+    margin: 0;
+    padding: 0;
 }
+h2,
+div.subbody,
+div.subbody2,
+footer {/*busqueda */
+        background:#608AA9;
+        padding: 5px ;
+        border-radius: 4px;
+    }
+    footer{
+        text-align: center;
+    }
+    h2.order,
+    select#order.order{ /*filtrado*/
+        text-align: right;
+        border-radius: 40px;
+    }
+    h2.order{ /*margen de izquierda a derecha*/
+        margin-left: 1000px;
+    }
+    div.desplegable,
+    div.desplegable2{ /*fondo de los 2 despliegues*/
+        background: #EDCCCC;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+    input.flexsearch--input{
+        background:white;
+    }
+    /*ocultar y mostrar buscador de nombre */
+    #activar ~ .desplegable {display: none;overflow: hidden;}
+    #activar:checked ~ .desplegable {display: block;}
+    /*ocultar y mostrar buscador avanzado */
+    #activar2 ~ .desplegable2 {display: none;overflow: hidden;}
+    #activar2:checked ~ .desplegable2 {display: block;}
+    button{
+        background: white;
+        border-radius: 10px;
+        width: 60px;
+        height: 30px
+    }
