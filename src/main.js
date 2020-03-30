@@ -1,6 +1,7 @@
 import data from './data/pokemon/pokemon.js';
 
 
+
 const stackOfPokemons = document.getElementById('stack');
 
 const showAllPokemon = (arr) => {
@@ -19,4 +20,6 @@ const showAllPokemon = (arr) => {
   });
 };
 showAllPokemon(data.pokemon);
-// templates, backticks comillas invertidas para concatenar en JS
+
+// templates, backticks comillas invertidas para concatenar en JS//
+

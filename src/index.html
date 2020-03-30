@@ -8,51 +8,58 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   
-  <!--cuerpo-->
+  <!--imagen de barra-->
   <body class="body"> 
     <header class='header'>
-        <img src="img/barra1.jpg">        
+        <img src="img/barra1.jpg" width="100%">        
     </header>
     
-    <!--barra de opciones de busqueda por nombre-->
-    <div id='body'class="subbody">  
-      <label class="inputlabel" for="activar"> Busqueda Por Nombre</label>
-      <input id="activar" type="checkbox">
-      <div class="desplegable">
-        <div class="info"></div>
-        Ingresar Nombre del Pokemón :
-        <input id="flexsearch" class="flexsearch"type="Pokemón" placeholder="Pokemón">
-        <button id="button">Buscar</button>
+    <!--barra de busqueda por nombre-->
+    <section>
+      <div id='body'class="subbody"> 
+        <label class="inputlabel" > Busqueda Por Nombre</label>
+        <input id="activar" type="checkbox">
+        <!--desplegable con pregunta-->
+        <div class="desplegable">
+          <div class="info"></div>
+          Ingresar Nombre del Pokemón :
+          <input id="flexsearch" class="flexsearch"type="Pokemón" placeholder="Pokemón">
+          <!--boton de busqueda-->
+          <button id="button">Buscar</button>
       </div>
-    </div>    
+      <p class="ocultar ms alerta" id="msjalerta"></p>
+    </div>  
+  </section>  
     <br>
     <!--Barra de opciones de busqueda personalizada-->
-    <div id="body2" class="subbody2">
-      <label class="inputlabel2" for="activar2"> Busqueda Avanzada</label>
-      <input id="activar2" name="activar2" type="checkbox">
-      <div class="desplegable2">
+    <section>
+      <div id="body2" class="subbody2">
+        <label class="inputlabel2" for="activar2"> Busqueda Avanzada</label>
+        <input id="activar2" name="activar2" type="checkbox">
+        <!--desplegable con pregunta-->
+        <div class="desplegable2">
         <div class="info2"></div>
         Selecciona :
         <select name="orderType" id="orderType" class="selectStyle">
           <option value="select" selected disabled>Tipo</option>
-          <option value="steel">Acero</option>
-          <option value="water">Agua</option>
-          <option value="bug">Bicho</option>
-          <option value="dragon">Dragón</option>
-          <option value="electric">Eléctrico</option>
-          <option value="ghost">Fantasma</option>
-          <option value="fire">Fuego</option>
-          <option value="fairy">Hada</option>
-          <option value="ice">Hielo</option>
-          <option value="fighting">Lucha</option>
+          <option value="steel">Stell</option>
+          <option value="water">Water</option>
+          <option value="bug">Bug</option>
+          <option value="dragon">Dragon</option>
+          <option value="electric">Electric</option>
+          <option value="ghost">Ghost</option>
+          <option value="fire">Fire</option>
+          <option value="fairy">Fairy</option>
+          <option value="ice">Ice</option>
+          <option value="fighting">Fighting</option>
           <option value="normal">Normal</option>
-          <option value="grass">Planta</option>
-          <option value="psychic">Psiquico</option>
-          <option value="rock">Roca</option>
-          <option value="dark">Siniestro</option>
-          <option value="ground">Tierra</option>
-          <option value="poison">Veneno</option>
-          <option value="flying">Volador</option>
+          <option value="grass">Grass</option>
+          <option value="psychic">Psychic</option>
+          <option value="rock">Rock</option>
+          <option value="dark">Dark</option>
+          <option value="ground">Ground</option>
+          <option value="poison">poison</option>
+          <option value="flying">Flying</option>
         </select>
         <!--Región-->
         <select name="orderRegion" id="orderRegion" class="selectStyle">
@@ -60,15 +67,31 @@
           <option value="kanto">Kanto</option>
           <option value="johto">Johto</option>
         </select>
+
+        <select id="fleerate" class="selectStyle">
+          <option selected disabled>% de Huida</option>
+          <option value="lowRate">Bajo 0% -10%</option>
+          <option value="MediumRate">Medio 11% -20%</option>
+          <option value="HigthRate">Alto 21% -100%</option>
+        </select>
+
+        <select id="spawn chance" class="selecStyle">
+          <option selected disabled>% de Aparación</option>
+          <option value="Null">Nulo</option>
+          <option value="LowSpawn">Baja</option>
+          <option value="MediumSpawn">Media</option>
+          <option value="HighSpawn">Alta</option>
+        </select>
+        
         <button>Buscar</button>
       </div>
     </div>
     <br>
-    <!--ordenador-->
-    <main>
+    <!--Filtrado-->
+    
       <h2 class="order">Ordenar por:
         <select name="order" id="order" class="order">
-          <option value="" selected disabled>Selecciona una opción</option>
+          <option value="" selected disabled>Ordenar</option>
           <option value="a-z">A - Z</option>
           <option value="z-a">Z - A</option>
           <option value="ascendente">000 - 251</option>
