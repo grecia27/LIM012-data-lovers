@@ -3,6 +3,7 @@
     flex-wrap: wrap; 
    
 }
+<<<<<<< HEAD
 
     .cards{    
     display: flex;
@@ -12,6 +13,15 @@
     height: 300px;
     margin: 50px ;
     padding: 1px 45px ;
+=======
+.cards{
+    flex-flow: column nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #EDCCCC;
+    border: 3px solid #608AA9;
+>>>>>>> 7966a2f58614a1ccc89e1fb0bd6cc2fe916488dc
     box-sizing: border-box;
     background: #EDCCCC;
     border: 3PX SOLID #608aa9;
@@ -72,6 +82,6 @@ footer {/*busqueda */
         background: white;
         border-radius: 10px;
         width: 60px;
-        height: 30px
+        height: 30px;
     }
     
