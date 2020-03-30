@@ -3,70 +3,65 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Pokedex por Eliane Tapia y Grecia Rios">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Pokemon</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="img/favicon.png">
   </head>
+  
   <!--cuerpo-->
   <body class="body"> 
     <header class='header'>
         <img src="img/barra1.jpg">        
     </header>
-    <!--barra de opciones de busqueda-->
-    <div id='body'>
-      <div class="subbody" >
-        <label class="inputlabel" for="activar"> Busqueda Por Nombre</label>
-          <input id="activar" name="activar" type="checkbox">
-          <div class="desplegable">
-            <div class="info">
-              <p class="info"id="info"></p>
-            </div>   
-            Ingresar Nombre del Pokemón :<input class="flexsearch--input" 
-            type="Pokemón" placeholder="Pokemón">
-            
-            <button>Buscar</button>
-          </div>
-      </div>  
-    </div>
+    
+    <!--barra de opciones de busqueda por nombre-->
+    <div id='body'class="subbody">  
+      <label class="inputlabel" for="activar"> Busqueda Por Nombre</label>
+      <input id="activar" type="checkbox">
+      <div class="desplegable">
+        <div class="info"></div>
+        Ingresar Nombre del Pokemón :
+        <input id="flexsearch" class="flexsearch"type="Pokemón" placeholder="Pokemón">
+        <button id="button">Buscar</button>
+      </div>
+    </div>    
     <br>
-    <div id='body2'>
-      <div class="subbody2" >
-        <label class="inputlabel2" for="activar2"> Busqueda Avanzada</label>
-          <input id="activar2" name="activar2" type="checkbox">
-          <div class="desplegable2">
-            <div class="info2">
-              <p class="info2"id="info2"></p>
-            </div>Selecciona :
-            <select name="orderType" id="orderType" class="selectStyle">
-              <option value="select" selected disabled>Tipo</option>
-              <option value="steel">Acero</option>
-              <option value="water">Agua</option>
-              <option value="bug">Bicho</option>
-              <option value="dragon">Dragón</option>
-              <option value="electric">Eléctrico</option>
-              <option value="ghost">Fantasma</option>
-              <option value="fire">Fuego</option>
-              <option value="fairy">Hada</option>
-              <option value="ice">Hielo</option>
-              <option value="fighting">Lucha</option>
-              <option value="normal">Normal</option>
-              <option value="grass">Planta</option>
-              <option value="psychic">Psiquico</option>
-              <option value="rock">Roca</option>
-              <option value="dark">Siniestro</option>
-              <option value="ground">Tierra</option>
-              <option value="poison">Veneno</option>
-              <option value="flying">Volador</option>
-            </select>
-            <!--Región-->
-            <select name="orderRegion" id="orderRegion" class="selectStyle">
-              <option value="" selected disabled>Región</option>
-              <option value="kanto">Kanto</option>
-              <option value="johto">Johto</option>
-            </select>
-            <button>Buscar</button>
-          </div>
+    <!--Barra de opciones de busqueda personalizada-->
+    <div id="body2" class="subbody2">
+      <label class="inputlabel2" for="activar2"> Busqueda Avanzada</label>
+      <input id="activar2" name="activar2" type="checkbox">
+      <div class="desplegable2">
+        <div class="info2"></div>
+        Selecciona :
+        <select name="orderType" id="orderType" class="selectStyle">
+          <option value="select" selected disabled>Tipo</option>
+          <option value="steel">Acero</option>
+          <option value="water">Agua</option>
+          <option value="bug">Bicho</option>
+          <option value="dragon">Dragón</option>
+          <option value="electric">Eléctrico</option>
+          <option value="ghost">Fantasma</option>
+          <option value="fire">Fuego</option>
+          <option value="fairy">Hada</option>
+          <option value="ice">Hielo</option>
+          <option value="fighting">Lucha</option>
+          <option value="normal">Normal</option>
+          <option value="grass">Planta</option>
+          <option value="psychic">Psiquico</option>
+          <option value="rock">Roca</option>
+          <option value="dark">Siniestro</option>
+          <option value="ground">Tierra</option>
+          <option value="poison">Veneno</option>
+          <option value="flying">Volador</option>
+        </select>
+        <!--Región-->
+        <select name="orderRegion" id="orderRegion" class="selectStyle">
+          <option value="" selected disabled>Región</option>
+          <option value="kanto">Kanto</option>
+          <option value="johto">Johto</option>
+        </select>
+        <button>Buscar</button>
+      </div>
     </div>
     <br>
     <!--ordenador-->
@@ -100,15 +95,4 @@
 
 
 
-
-
-
-
-
-
-Enviar mensaje a Elián Tapia
-
-
-Hilo
-lim012
 
