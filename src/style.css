@@ -4,17 +4,20 @@
    
 }
 
-.cards{
-    flex-flow: column nowrap;
-    flex-direction: column;
+
+    .cards{    
+    display: flex;
+    flex-wrap: wrap;    
+    width: 300px;
+    height: 300px;
+    margin: 50px ;
+    padding: 1px 45px ;
+    flex-flow: column nowrap;    
     align-items: center;
     justify-content: center;
     background: #EDCCCC;
     border: 3px solid #608AA9;
-
-    box-sizing: border-box;
-    background: #EDCCCC;
-    border: 3PX SOLID #608aa9;
+    box-sizing: border-box;    
     border-radius: 15px;
    color: #608aa9;
    font-size: 23px;

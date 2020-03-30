@@ -20,7 +20,3 @@ const showAllPokemon = (arr) => {
 };
 showAllPokemon(data.pokemon);
 // templates, backticks comillas invertidas para concatenar en JS
-<<<<<<< HEAD
-
-=======
->>>>>>> 7966a2f58614a1ccc89e1fb0bd6cc2fe916488dc
