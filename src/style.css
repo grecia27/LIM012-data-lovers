@@ -1,79 +1,66 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+.search{
+    
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.title{
+    background:#608AA9;
+    padding: 5px ;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: left;
+}
+.searchContainer{
+    padding: 10px;
+}
+.order{
+    text-align: right;
+    border-radius: 40px;
+}
 .stack{
     display: flex;
     flex-wrap: wrap; 
    
 }
+.cards{    
+display: flex;
+flex-wrap: wrap;    
+width: 300px;
+height: 300px;
+margin: 50px ;
+padding: 1px 45px ;
+flex-flow: column nowrap;    
+align-items: center;
+justify-content: center;
+background: #EDCCCC;
+border: 3px solid #608AA9;
+box-sizing: border-box;    
+border-radius: 15px;
+color: #608AA9;
+font-size: 23px;
+font-family: 'Lucida Sans';
+margin-bottom: 50px;
+}
 
-
-    .cards{    
-    display: flex;
-    flex-wrap: wrap;    
-    width: 300px;
-    height: 300px;
-    margin: 50px ;
-    padding: 1px 45px ;
-    flex-flow: column nowrap;    
-    align-items: center;
-    justify-content: center;
-    background: #EDCCCC;
-    border: 3px solid #608AA9;
-    box-sizing: border-box;    
-    border-radius: 15px;
-   color: #608aa9;
-   font-size: 23px;
-   font-family: 'Lucida Sans';
-   margin-bottom: 50px;
-   
-   
-   }
-strong{ 
+.footer{
+    background:#608AA9;
+    padding: 5px ;
+    border-radius: 4px;
     font-size: 30px;
     text-align: center;
-    font-family: 'Lucida Sans';
+    color: cornsilk;
 }
 
-  
-*{
-    margin: 0;
-    padding: 0;
+body {
+    background: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-h2,
-div.subbody,
-div.subbody2,
-footer {/*busqueda */
-        background:#608AA9;
-        padding: 5px ;
-        border-radius: 4px;
-    }
-    footer{
-        text-align: center;
-    }
-    h2.order,
-    select#order.order{ /*filtrado*/
-        text-align: right;
-        border-radius: 40px;
-    }
-   
-    div.desplegable,
-    div.desplegable2{ /*fondo de los 2 despliegues*/
-        background: #EDCCCC;
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-bottom: 10px;
-        border-radius: 10px;
-    }
-    input.flexsearch--input{
-        background:white;
-    }
-    /*ocultar y mostrar buscador de nombre */
-    #activar ~ .desplegable {display: none;overflow: hidden;}
-    #activar:checked ~ .desplegable {display: block;}
-    /*ocultar y mostrar buscador avanzado */
-    #activar2 ~ .desplegable2 {display: none;overflow: hidden;}
-    #activar2:checked ~ .desplegable2 {display: block;}
-    button{
-        background: white;
-        border-radius: 10px;
-        width: 60px;
-        height: 30px;
-    }
