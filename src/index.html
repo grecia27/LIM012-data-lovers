@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="img/favicon.png">
   </head>
+
   <!--cuerpo-->
   <body class="body"> 
+
     <header class='header'>
         <img src="img/barra1.jpg" width="100%">        
     </header>
@@ -19,7 +21,7 @@
     <section class="search"> 
       <section> 
               <!--busqueda por nombre-->
-              <details style="width: 50%;float:left;"> <summary class="title">Search by Name</summary>
+              <details> <summary class="title">Search by Name</summary>
               <form class="searchContainer">
                 <label>Enter Pokemon's Name: <input type="text" id="findByName" placeholder="Find a Pokemon">
                  <!--<button>Search</button>-->
@@ -28,9 +30,11 @@
               </form>
               </details>
       </section>
+
       <section>
           <!--busqueda avanzada-->
-          <details style="width:50%; float:right;"><summary class="title">Advanced Search</summary>
+          <details><summary class="title">Advanced Search</summary>
+
             <form class="searchContainer">
               <label>Select your choices
                 <select name="orderType" id="orderType" class="selectStyle">
@@ -54,6 +58,7 @@
                  <option value="steel">Steel</option>
                  <option value="water">Water</option>
                 </select>
+
                 <select name="orderStrength" id="orderStrength" class="selectStyle">
                  <option value="select" selected disabled>Strength</option>
                  <option value="bug">Bug</option>
@@ -75,6 +80,7 @@
                  <option value="steel">Steel</option>
                  <option value="water">Water</option>
                 </select>
+
                 <select name="orderWeakness" id="orderWeakness" class="selectStyle">
                  <option value="select" selected disabled>Weakness</option>
                  <option value="bug">Bug</option>
@@ -96,6 +102,7 @@
                  <option value="steel">Steel</option>
                  <option value="water">Water</option>
                 </select>
+
                 <select name="orderGeneration" id="orderGeneration" class="selectStyle">
                  <option value="" selected disabled>Generation</option>
                  <option value="generationI">Generation I</option>
@@ -104,6 +111,7 @@
               <input type="submit" value="Search">
               </label>
             </form>
+
      </section>
     </section>
     
@@ -120,6 +128,7 @@
           </select>
         </p>
       </section>
+
     <!--imagenes de pokemones -->
     <div id="stack" class="stack">
     </div> 
@@ -128,42 +137,12 @@
   <footer class="footer">
     <p>Powered By: Eliane Tapia & Grecia Rios</p>
   </footer>
+
     <script src="main.js" type="module"></script>
  
   </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Enviar mensaje a Elián Tapia
-
-
-Hilo
-lim012
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
