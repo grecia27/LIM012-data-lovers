@@ -1,64 +1,80 @@
-*{
+*{ 
     margin: 0px;
     padding: 0px;
 }
-
+body {
+    background: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .search{
     background: #EDCCCC;
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 25px;
+    text-align: center;
 }
-
 .title{
     background:#608AA9;
     padding: 5px ;
     border-radius: 4px;
-    font-size: 20px;
-    text-align: left;
+    font-size: 90%;
+    text-align: center;
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 .searchContainer{
     padding: 10px;
 }
 
+.searchAdvanced {
+    background: #EDCCCC;
+}
+.searchName{
+    background: #EDCCCC;
+}
+
+.main{
+    position: center;
+}
 .order{
+    padding-top:80px;
     text-align: right;
     border-radius: 40px;
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 .stack{
     display: flex;
     flex-wrap: wrap; 
-   
 }
-    .cards{    
-    display: flex;
-    flex-wrap: wrap;    
-    width: 300px;
-    height: 300px;
-    margin: 50px ;
-    padding: 1px 45px ;
-    flex-flow: column nowrap;    
-    align-items: center;
-    justify-content: center;
-    background: #EDCCCC;
-    border: 3px solid #608AA9;
-    box-sizing: border-box;    
-    border-radius: 15px;
-   color: #608aa9;
-   font-size: 23px;
-   font-family: 'Lucida Sans';
-   margin-bottom: 50px;
+.cards{    
+display: flex;
+flex-wrap: wrap;    
+width: 200px;
+height: 250px;
+margin: 50px ;
+padding: 1px 45px ;
+flex-flow: column nowrap;    
+align-items: center;
+justify-content: center;
+background: #EDCCCC;
+border: 3px solid #608AA9;
+box-sizing: border-box;    
+border-bottom-right-radius: 20px;
+color: #608AA9;
+font-size: 23px;
+font-family: 'Lucida Sans';
+margin-bottom: 50px;
 }
-
 .footer{
     background:#608AA9;
     padding: 5px ;
     border-radius: 4px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color: cornsilk;
 }
